@@ -3,9 +3,17 @@
 
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/lazyload)
 
-Native lazyload for images.
+Native lazyload for images.     
+Set width and height for preventing content reflow and maintain aspect ratio.
 
 ## Usage
+
+### html
+```html
+<img src="https://picsum.photos/id/400/536/354" loading="lazy" width="536" height="354" alt=""> 
+```
+
+### javascript
 ```javascript
 if ('loading' in HTMLImageElement.prototype) {
     document.querySelectorAll('img[loading]').forEach((img) => {
@@ -17,6 +25,7 @@ if ('loading' in HTMLImageElement.prototype) {
 }
 ```
 
+### css
 ```css
 img[loading] {
     opacity: 0;
