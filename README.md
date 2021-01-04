@@ -4,7 +4,7 @@
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/lazyload)
 
 Native lazyload for images.     
-Set width and height for preventing content reflow and maintain aspect ratio.
+Set **width** and **height** for preventing content reflow and maintain **aspect ratio**.
 
 ## Usage
 
